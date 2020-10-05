@@ -55,14 +55,6 @@ export default function contactme() {
         </div>
         </motion.div>
       <style jsx>{`
-      .container {
-        min-height: 100vh;
-        padding: 0 0.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
         .grid {
           display: flex;
           align-items: center;
@@ -73,6 +65,7 @@ export default function contactme() {
         }
         .card {
           margin: 1rem;
+          min-width: 320px;
           flex-basis: 45%;
           padding: 1.5rem;
           text-align: left;

@@ -38,7 +38,7 @@ export default function portfolio() {
             className="card"
           >
             <h3>This site &rarr;</h3>
-            <p>Written in ReactJS using the NextJS framework. Click to see the code behind this site. Custom and prerendered for optimal perfomance.</p>
+            <p>Written in ReactJS using the NextJS framework. Click to see the code behind this site. Custom and prerendered.</p>
           </a>
 
           <a
@@ -47,7 +47,7 @@ export default function portfolio() {
           >
             <h3>GitHub &rarr;</h3>
             <p>
-              Different projects written in Java and other programming languages. Includes Minecraft plugins, school projects and more.
+              Different projects written in Java and other programming languages. Includes Minecraft plugins and school projects.
             </p>
           </a>
 
@@ -71,14 +71,6 @@ export default function portfolio() {
         </div>
         </motion.div>
       <style jsx>{`
-      .container {
-        min-height: 100vh;
-        padding: 0 0.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
         .grid {
           display: flex;
           align-items: center;
@@ -89,8 +81,9 @@ export default function portfolio() {
         }
         .card {
           margin: 1rem;
+          min-width: 320px;
           flex-basis: 45%;
-          padding: 1.5rem;
+          padding: 1rem;
           text-align: left;
           color: inherit;
           text-decoration: none;
