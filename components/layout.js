@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { motion } from 'framer-motion';
 
 const name = 'Jaagop Janson'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Jaagop Janson'
 
 export default function Layout({ children, home }) {
   return (
