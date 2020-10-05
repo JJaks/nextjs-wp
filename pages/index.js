@@ -4,6 +4,7 @@ import { getSortedPostsData } from '../lib/posts'
 import utilStyles from '../styles/utils.module.css'
 import Date from '../components/date'
 import Link from 'next/link'
+import { motion } from 'framer-motion';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
@@ -21,26 +22,46 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>Jaagop</title>
       </Head>
+      <motion.div initial="hidden" animate="visible" variants={{
+          hidden: {
+            scale: .8,
+            opacity: 0
+          },
+          visible: {
+            scale: 1,
+            opacity: 1,
+            transition: {
+              delay: .8
+            }
+          },
+        }}>
       <section className={utilStyles.headingMd}>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <p>Tere, ma olen <b>Jaagop</b>. Olen algaja tasemel front-end arendaja ja programmeerija.</p>
+        
+        <p>Hi, I'm <b>Jaagop</b>! I love web design and this is my little space on the internet.</p>
+        
+          <div className="grid">
+          <Link href="/me/portfolio" className="card"><a>
+            <h3>Portfolio</h3>
+            <p>Work that I have done for clients and school projects.</p>
+            </a>
+            </Link>
+          </div>
+
+          <div className="grid">
+          <Link href="/me/blog" className="card"><a>
+            <h3>Blog</h3>
+            <p>Random Blog where I occasionally discuss about different things.</p>
+            </a>
+            </Link>
+          </div>
+          
+          
         </section>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-        {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-            <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
       </section>
+      </motion.div>
     </Layout>
+    
   )
 
 }
