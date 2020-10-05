@@ -33,7 +33,7 @@ export default function blog({ allPostsData }){
             }
           },
         }}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h1>Blog</h1>
         <ul className={utilStyles.list}>
         {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
