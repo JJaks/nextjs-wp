@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import { motion } from 'framer-motion';
 
 const name = 'Jaagop Janson'
 export const siteTitle = 'Next.js Sample Website'
@@ -24,6 +25,20 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
+      
+      <motion.div initial="hidden" animate="visible" variants={{
+        hidden: {
+          scale: .8,
+          opacity: 0
+          },
+        visible: {
+          scale: 1,
+          opacity: 1,
+          transition: {
+          delay: .4
+          }
+        },
+      }}>
       <header className={styles.header}>
         {home ? (
           <>
@@ -53,6 +68,8 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
+      </motion.div>
+
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
