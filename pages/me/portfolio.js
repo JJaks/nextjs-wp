@@ -17,7 +17,7 @@ export default function portfolio() {
             scale: 1,
             opacity: 1,
             transition: {
-              delay: .8
+              delay: .4
             }
           },
         }}>

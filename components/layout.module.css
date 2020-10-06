@@ -10,11 +10,13 @@
   }
   
   .headerImage {
+    padding-top: 2px;
     width: 6rem;
     height: 6rem;
   }
   
   .headerHomeImage {
+    padding-top: 2px;
     width: 8rem;
     height: 8rem;
   }

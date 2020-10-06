@@ -17,7 +17,7 @@ export default function aboutme() {
             scale: 1,
             opacity: 1,
             transition: {
-              delay: .8
+              delay: .4
             }
           },
         }}>

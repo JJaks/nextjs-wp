@@ -29,7 +29,7 @@ export default function blog({ allPostsData }){
             scale: 1,
             opacity: 1,
             transition: {
-              delay: .8
+              delay: .4
             }
           },
         }}>
