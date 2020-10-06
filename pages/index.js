@@ -41,7 +41,7 @@ export default function Home({ allPostsData }) {
         
           <div className="grid">
           <Link href="/me/portfolio"><a className="card">
-            <h3>Portfolio &rarr;</h3>
+            <h4>Portfolio &rarr;</h4>
             <p>Work that I have done for clients and school projects.</p>
             </a>
             </Link>
