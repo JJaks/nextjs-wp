@@ -44,6 +44,16 @@ export default function aboutme() {
             I also love to try new things, which is why I have been getting into App developement and back-end work.
             I am also 20 years old if you were curious about my age.
         </p>
+        <p>
+          I started getting into web design and front-end developement about 2 years ago, starting off with Wordpress sites.
+          When I started getting into programming, I learned Java and made different Minecraft plugins that I still update to this day.
+          Currently I'm working on many different projects, all of them fully custom using the Aurelia or NextJS framework.
+          My biggest project by far is the TKClient project which was my first front-end job, what made it hard was the Aurelia webpack and Typescript which I wasn't really familiar with.
+        </p>
+        <p>
+          My biggest project by far is the TKClient project which was my first front-end job, what made it hard was the Aurelia webpack and Typescript which I wasn't really familiar with.
+          Also what made it difficult was the complex back-end that was behind the order center, in short I'm really proud of that project.
+        </p>
         <br>
         </br>
         <h1>My Skills</h1>
