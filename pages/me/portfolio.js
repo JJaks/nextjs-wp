@@ -25,12 +25,12 @@ export default function portfolio() {
         <div className="grid">
           <a href="https://tk.salome.ee/user/login" className="card">
             <h3>Salome TK &rarr;</h3>
-            <p>An Extensive order center written in TypeScript using the Aurelia webpack.</p>
+            <p>An Extensive order center written in TypeScript using the Aurelia webpack, custom back and front-end.</p>
           </a>
 
-          <a href="https://play.google.com/store/apps/details?id=janson.jaagop.khk" className="card">
-            <h3>TKHK Siseveeb &rarr;</h3>
-            <p>A Android app that was written in Java, made for the students of Tartu Vocational Center (in BETA).</p>
+          <a href="https://nextjs-zentria-a4z1aczhk.vercel.app/" className="card">
+            <h3>Zentria &rarr;</h3>
+            <p>Custom site made using the NextJS framework, scss, Javascript. Implementing HTML5 UP design. Currently in developement.</p>
           </a>
 
           <a
@@ -40,7 +40,13 @@ export default function portfolio() {
             <h3>This site &rarr;</h3>
             <p>Written in ReactJS using the NextJS framework. Click to see the code behind this site. Custom and prerendered.</p>
           </a>
-
+          <a
+            href="https://play.google.com/store/apps/details?id=janson.jaagop.khk"
+            className="card"
+          >
+            <h3>TKHK Siseveeb &rarr;</h3>
+            <p>A Android app that was written in Java, made for the students of Tartu Vocational Center currently in developement (BETA).</p>
+          </a>
           <a
             href="https://github.com/JJaks"
             className="card"
@@ -50,15 +56,6 @@ export default function portfolio() {
               Different projects written in Java and other programming languages. Includes Minecraft plugins and school projects.
             </p>
           </a>
-
-          <a
-            href=""
-            className="card"
-          >
-            <h3>The Great Empire &rarr;</h3>
-            <p>Site is down sadly. Written fully in Javascript using no libraries. The site originally was intended as a Minecraft server homepage.</p>
-          </a>
-
           <a
             href=""
             className="card"
