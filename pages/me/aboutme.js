@@ -50,10 +50,6 @@ export default function aboutme() {
           Currently I'm working on many different projects, all of them fully custom using the Aurelia or NextJS framework.
           My biggest project by far is the TKClient project which was my first front-end job, what made it hard was the Aurelia webpack and Typescript which I wasn't really familiar with.
         </p>
-        <p>
-          My biggest project by far is the TKClient project which was my first front-end job, what made it hard was the Aurelia webpack and Typescript which I wasn't really familiar with.
-          Also what made it difficult was the complex back-end that was behind the order center, in short I'm really proud of that project.
-        </p>
         <br>
         </br>
         <h1>My Skills</h1>
