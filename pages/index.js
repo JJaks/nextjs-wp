@@ -4,15 +4,6 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { motion } from 'framer-motion';
 
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
-  return {
-    props: {
-      allPostsData
-    }
-  }
-}
-
 export default function Home() {
   
   return (
