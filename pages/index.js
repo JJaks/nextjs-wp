@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
-import { getSortedPostsData } from '../lib/posts'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { motion } from 'framer-motion';
@@ -14,7 +13,7 @@ export async function getStaticProps() {
   }
 }
 
-export default function Home({ allPostsData }) {
+export default function Home() {
   
   return (
     <Layout home>
