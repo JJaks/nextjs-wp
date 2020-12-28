@@ -25,3 +25,24 @@ img {
   max-width: 100%;
   display: block;
 }
+
+p{
+	margin: 0 10px;
+}
+
+.klass1{
+	color:blue;
+}
+
+.klass2{
+	color:yellow;
+}
+
+#kast{
+	width: 200px;
+	height: 30px;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid red;
+	
+}

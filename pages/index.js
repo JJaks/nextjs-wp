@@ -48,9 +48,9 @@ export default function Home({ allPostsData }) {
           </div>
 
           <div className="grid">
-          <Link href="/me/blog"><a className="card">
-            <h3>Blog &rarr;</h3>
-            <p>Random Blog where I occasionally discuss about different things.</p>
+          <Link href="/me/misc"><a className="card">
+            <h3>Utilities &rarr;</h3>
+            <p>Random software utilities I recommend.</p>
             </a>
             </Link>
           </div>
