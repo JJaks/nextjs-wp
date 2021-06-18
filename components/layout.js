@@ -12,7 +12,6 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <script src="/noflash.js" />
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"

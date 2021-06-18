@@ -1,8 +1,15 @@
 # Personal portfolio and homepage
 
-Version: 2.0.1
+Changelogs are shown only per MAJOR version (1.0.0, 2.0.0, etc)
 
-Changelog 18.06.2021:
+Version: 2.0.2
+
+Changelog **2.0.2** 18.06.2021:
+* Removed noflash.js
+* Improved website loading speed from 0.9s to 0.6s
+* Improved code formatting
+
+Changelog **2.0.1** 18.06.2021:
 * Added loading icon
 * Updated Design
 * Updated code performance
