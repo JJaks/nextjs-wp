@@ -5,7 +5,7 @@ import React from 'react';
 import { HorizontalBar } from 'react-chartjs-2';
 
 const data = {
-  labels: ['Java', 'HTML5', 'Javascript', 'CSS', 'Python', 'Typescript', 'Aurelia', 'React', 'Next.JS'],
+  labels: ['Java', 'HTML5', 'Javascript', 'CSS', 'Python', 'Typescript', 'Aurelia', 'React', 'Next.JS', 'AJAX'],
   datasets: [
     {
       label: 'Skill & Familiarity',
@@ -14,10 +14,11 @@ const data = {
       borderWidth: 1,
       hoverBackgroundColor: '#8eacbb',
       hoverBorderColor: '#8eacbb',
-      data: [7, 9, 7, 8, 5, 6, 7, 6, 5, 10, 1]
+      data: [7, 9, 7, 8, 5, 6, 7, 6, 5, 6, 0, 10]
     }
   ]
 };
+
 
 export default function aboutme() {
   return (
