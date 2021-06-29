@@ -2,11 +2,14 @@
 
 Changelogs are shown only per MAJOR version (1.0.0, 2.0.0, etc)
 
-Version: 2.0.3
+Version: 2.0.4
 
-Changelog **2.0.3** 18.06.2021:
-* Added new job showcase (gotoAndPlay)
-You can view the simulation [here](https://gotoandplay-sim.vercel.app/) and it's source code [here](https://github.com/JJaks/play-crn).
+Changelog **2.0.4** 29.06.2021:
+* Reduced latest showcase job title
+
+Changelog **2.0.3** 29.06.2021:
+* Added new job showcase (gotoAndPlay) You can view the simulation [here](https://gotoandplay-sim.vercel.app/) and it's source code [here](https://github.com/JJaks/play-crn).
+
 
 Changelog **2.0.2** 18.06.2021:
 * Removed noflash.js

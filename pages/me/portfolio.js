@@ -24,7 +24,7 @@ export default function portfolio() {
         <h1>Portfolio</h1>
         <div className="grid">
           <a href="https://gotoandplay-sim.vercel.app/" className="card" target="_blank" >
-            <h3>gotoAndPlay Simulation App &rarr;</h3>
+            <h3>gotoAndPlay &rarr;</h3>
             <p>This was a homework type of assignment to apply for a job at gotoAndPlay. Made with Next.JS, TypeScript, HMTL5, CSS, tsparticles and magic.</p>
           </a>
           <a href="https://kapitaligrupp.ee/" className="card" target="_blank" >
