@@ -24,7 +24,7 @@ export default function contactme() {
         <h1>Contact me</h1>
         <div className="grid">
 
-          <a href="ttps://www.linkedin.com/in/jaagop-janson/" className="card">
+          <a href="https://www.linkedin.com/in/jaagop-janson/" className="card">
             <h3>LinkedIn &rarr;</h3>
             <p>I use LinkedIn on a regular basis so you can contact me or browse my skills, etc.</p>
           </a>
