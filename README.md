@@ -2,7 +2,12 @@
 
 Changelogs are shown only per MAJOR version (1.0.0, 2.0.0, etc)
 
-Version: 2.0.4
+Version: 2.0.5
+
+Changelog **2.0.5** 31.07.2021:
+* Added new profile image in WebP format
+* Fixed a issue where LinkedIn link was not working
+* Added new portfolio showcase (URL Shortening). You can view the page [here](https://jjaks.github.io/frontendmentor-url-shortening/src/) and it's source code [here](https://github.com/JJaks/frontendmentor-url-shortening)
 
 Changelog **2.0.4** 29.06.2021:
 * Reduced latest showcase job title
