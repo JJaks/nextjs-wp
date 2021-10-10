@@ -23,6 +23,14 @@ export default function portfolio() {
       }}>
         <h1>Portfolio</h1>
         <div className="grid">
+          <a href="https://www.acty.ee/career/" className="card" target="_blank" >
+            <h3>Acty Career Page &rarr;</h3>
+            <p>Customized Acty's Career page that feautres custom open job positions and forms. Made in Wordpress using Divi builder. Simple but very elegant.</p>
+          </a>
+          <a href="http://deleit.eu/" className="card" target="_blank" >
+            <h3>Deleit &rarr;</h3>
+            <p>Construction company website that features a portfolio, services, etc. Made in Wordpress using Elementor, a very simple page with full page cache.</p>
+          </a>
           <a href="https://jjaks.github.io/frontendmentor-url-shortening/src/" className="card" target="_blank" >
             <h3>URL Shortening &rarr;</h3>
             <p>This was a Frontend Mentor challenge to create a URL Shortening API landing page. Semantic HTML, pure CSS & pure Javascript. Made with love.</p>
