@@ -1,26 +1,26 @@
-import Layout from '../../components/layout'
-import Head from 'next/head'
+import Layout from '../../components/layout';
+import Head from 'next/head';
 import { motion } from 'framer-motion';
 
 export default function misc() {
-    return (
-        <Layout>
-        <Head>
-          <title>Utilities</title>
-        </Head>
-        <motion.div initial="hidden" animate="visible" variants={{
-          hidden: {
-            scale: .8,
-            opacity: 0
-          },
-          visible: {
-            scale: 1,
-            opacity: 1,
-            transition: {
-              delay: .4
-            }
-          },
-        }}>
+  return (
+    <Layout>
+      <Head>
+        <title>Utilities</title>
+      </Head>
+      <motion.div initial="hidden" animate="visible" variants={{
+        hidden: {
+          scale: .8,
+          opacity: 0
+        },
+        visible: {
+          scale: 1,
+          opacity: 1,
+          transition: {
+            delay: .4
+          }
+        },
+      }}>
         <h1>Utilities</h1>
         <div className="grid">
           <a href="http://www.uderzo.it/main_products/space_sniffer/download.html" className="card">
@@ -30,11 +30,11 @@ export default function misc() {
 
           <a href="https://www.malwarebytes.com/mwb-download/thankyou/" className="card">
             <h3>Malwarebytes &rarr;</h3>
-            <p>Yeah I know antivirus IS SO 2012 but hear me out, Malwarebytes is a great option trust me.</p>
+            <p>Yeah I know anti-malware applications IS SO 2012 but hear me out, Malwarebytes is a great option.</p>
           </a>
 
         </div>
-        </motion.div>
+      </motion.div>
       <style jsx>{`
         .grid {
           display: flex;
@@ -69,7 +69,7 @@ export default function misc() {
 
       `}</style>
 
-      </Layout>
-        
-      )
+    </Layout>
+
+  );
 }
