@@ -34,11 +34,6 @@ export default function contactme() {
             <p>I use telegram mainly so you will probably get the quickest response from me there.</p>
           </a>
 
-          <a href="https://twitter.com/jaagopj/" className="card">
-            <h3>Twitter &rarr;</h3>
-            <p>Twitter is mainly for presonal use but you can follow me or DM me there.</p>
-          </a>
-
           <a
             href="mailto:jaagopj@gmail.com"
             className="card"
@@ -55,16 +50,6 @@ export default function contactme() {
             <h3>Reddit &rarr;</h3>
             <p>
               I'm a active Reddit user so if you want to contact me through Reddit, go ahead.
-            </p>
-          </a>
-
-          <a
-            href="https://discord.gg/tNRPTpnCAC"
-            className="card"
-          >
-            <h3>Discord &rarr;</h3>
-            <p>
-              I'm a Discord user since everybody uses Discord, so you can contact there.
             </p>
           </a>
 
