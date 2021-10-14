@@ -2,7 +2,12 @@
 
 Changelogs are shown only per MAJOR version (1.0.0, 2.0.0, etc)
 
-Version: 2.0.5
+Version: 2.0.6
+
+Changelog **2.0.6** 13.10.2021:
+* Added two new portfolio showcases (Acty Career page and Deleit)
+* Fixed typo issues
+* Improved webpage performance
 
 Changelog **2.0.5** 31.07.2021:
 * Added new profile image in WebP format
