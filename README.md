@@ -2,9 +2,20 @@
 
 Changelogs are shown only per MAJOR version (1.0.0, 2.0.0, etc)
 
-Version: 2.0.7
+Version: 2.1.1
 
-Changelog **2.0.7** 20.11.2021:
+Changelog **2.1.1** 21.11.2021:
+* Upgraded packages
+* Installed a new package Remark
+* Implemented blog posts functionality
+* Fixed homepage layout issues
+* Improved design of website
+* Improved code quality
+* Implemented new feature (go back)
+* Updated About me text
+* Implemented performance improvements
+
+Changelog **2.1.0** 20.11.2021:
 * Upgraded packages
 * Upgraded NextJS & React
 * Updated version in package.json
