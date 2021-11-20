@@ -4,11 +4,12 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import DarkModeToggle from './darkmode/darkmode-toggle';
+import Router from 'next/router'
 
 const name = 'Jaagop Janson';
 export const siteTitle = 'Jaagop Janson';
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home}) {
   return (
     <div className={styles.container}>
       <Head>
@@ -81,9 +82,7 @@ export default function Layout({ children, home }) {
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
+            <a onClick={() => Router.back()}>← Go back</a>
         </div>
       )}
     </div>
