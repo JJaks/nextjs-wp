@@ -3,10 +3,12 @@
     padding: 0 1rem;
     margin: auto;
   }
+
   .header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1.5rem 0 0 0;
   }
   
   .headerImage {
@@ -23,7 +25,9 @@
   
   .backToHome {
     margin: 3rem 0 0;
+    cursor: pointer;
   }
+
   .grid {
     display: flex;
     align-items: center;
@@ -32,6 +36,7 @@
     max-width: 800px;
     margin-top: 3rem;
   }
+
   .card {
     margin: 1rem;
     flex-basis: 45%;
@@ -43,16 +48,19 @@
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
   }
+
   .card:hover,
   .card:focus,
   .card:active {
     color: #0070f3;
     border-color: #0070f3;
   }
+
   .card h3 {
     margin: 0 0 1rem 0;
     font-size: 1.5rem;
   }
+
   .card p {
     margin: 0;
     font-size: 1.25rem;
