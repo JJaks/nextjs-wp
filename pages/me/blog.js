@@ -25,9 +25,9 @@ export default function blog({ allPostsData }) {
           }
         },
       }}>
-        <section className="blog-title--section">
-            <h1>Blog</h1>
-            <p>This is my little space where I can speak about my experiences.</p>
+        <section>
+            <h1 className="blog-title-section-h1">Blog</h1>
+            <p className="blog-title-section-p">This is my little space where I can speak about my experiences.</p>
         </section>
 
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -48,8 +48,15 @@ export default function blog({ allPostsData }) {
 
       </motion.div>
       <style jsx>{`
-        
-
+        .blog-title-section-h1 {
+            text-align: center;
+            margin:0;
+        }
+        .blog-title-section-p {
+            text-align: center;
+            color: #999;
+            margin: 0;
+        }
       `}</style>
 
     </Layout>
