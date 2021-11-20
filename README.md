@@ -1,8 +1,15 @@
-# Personal portfolio and homepage
+# Personal portfolio and website
 
 Changelogs are shown only per MAJOR version (1.0.0, 2.0.0, etc)
 
-Version: 2.0.6
+Version: 2.0.7
+
+Changelog **2.0.7** 20.11.2021:
+* Upgraded packages
+* Upgraded NextJS & React
+* Updated version in package.json
+* Fixed typo issues in package.json 
+* Improved webpage performance
 
 Changelog **2.0.6** 13.10.2021:
 * Added two new portfolio showcases (Acty Career page and Deleit)
