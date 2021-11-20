@@ -27,35 +27,43 @@ export default function Home() {
       }}>
         <section className={utilStyles.headingMd}>
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-            <p>Hi, I'm <b>Jaagop</b>! I'm a web developer. I love simplicity and minimalism.</p>
+            <p className="description-p">Hi, I'm <b>Jaagop</b>! I'm a web developer. I love simplicity and minimalism.</p>
             <div className="grid">
               <Link href="/me/portfolio"><a className="card">
-                <h4>Portfolio &rarr;</h4>
-                <p>Work that I have done for clients and school projects.</p>
+                <h3 className="description-h3">Portfolio &rarr;</h3>
+                <p className="description-p">Work that I have done for clients and school projects.</p>
+              </a>
+              </Link>
+            </div>
+
+            <div className="grid">
+              <Link href="/me/blog"><a className="card">
+                <h3 className="description-h3">Blog &rarr;</h3>
+                <p className="description-p">My little space to write out my thoughts about different subjects.</p>
               </a>
               </Link>
             </div>
 
             <div className="grid">
               <Link href="/me/misc"><a className="card">
-                <h3>Utilities &rarr;</h3>
-                <p>Random software utilities I recommend.</p>
+                <h3 className="description-h3">Utilities &rarr;</h3>
+                <p className="description-p">Random software utilities I recommend.</p>
               </a>
               </Link>
             </div>
 
             <div className="grid">
               <Link href="/me/aboutme"><a className="card">
-                <h3>About &rarr;</h3>
-                <p>Want to know more about me and my skills? Click here.</p>
+                <h3 className="description-h3">About &rarr;</h3>
+                <p className="description-p">Want to know more about me and my skills? Click here.</p>
               </a>
               </Link>
             </div>
 
             <div className="grid">
               <Link href="/me/contactme"><a className="card">
-                <h3>Contact me &rarr;</h3>
-                <p>Here are some different ways that you can contact me.</p>
+                <h3 className="description-h3">Contact me &rarr;</h3>
+                <p className="description-p">Here are some different ways that you can contact me.</p>
               </a>
               </Link>
             </div>
