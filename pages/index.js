@@ -27,7 +27,7 @@ export default function Home() {
       }}>
         <section className={utilStyles.headingMd}>
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-            <p className="description-p">Hi, I'm <b>Jaagop</b>! I'm a web developer. I love simplicity and minimalism.</p>
+            <p className="description-p">Hi, I'm <b>Jaagop</b>! I'm a full-stack developer. I love simplicity and minimalism.</p>
             <div className="grid">
               <Link href="/me/portfolio"><a className="card">
                 <h3 className="description-h3">Portfolio &rarr;</h3>
