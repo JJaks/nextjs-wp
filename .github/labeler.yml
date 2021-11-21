@@ -1,2 +1,3 @@
-Frontned:
-- any: ['pages/**/*.js']
+Frontend:
+- pages/**/*.js
+- pages/*.js
