@@ -54,7 +54,7 @@ export default function aboutme() {
           and Elementor are really the way to go.
           My biggest project by far is the TKClient project which was my first massive front-end job, what made it hard was the Aurelia webpack and Typescript which I wasn't really familiar with.
           However, since starting as a full-stack developer at Acty Ltd, I'm developing massive e-commerce sites (custom modules & frontend),
-          it has been an absolute joy playing around with Magento and I look forward to learning even more of it and getting my Magento Certificate.
+          it has been an absolute joy playing around with Magento and I look forward to learning even more of it and getting my Magento 2 Certificate.
         </p>
         <br>
         </br>
