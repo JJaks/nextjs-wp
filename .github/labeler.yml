@@ -1,3 +1,20 @@
 Frontend:
 - pages/**/*.js
 - pages/*.js
+
+Lib:
+- lib/*.js
+
+Public:
+- public/*.ico
+- public/**/*.webp
+- public/**/*
+
+Blog-Post:
+- posts/*.md
+
+Styling:
+- styles/*.css
+- styles/**/*.scss
+- styles/**/*.css
+- styles/*.scss
