@@ -27,7 +27,7 @@ export default function blog({ allPostsData }) {
       }}>
         <section>
             <h1 className="blog-title-section-h1">Blog</h1>
-            <p className="blog-title-section-p">This is my little space where I can speak about my experiences.</p>
+            <p className="blog-title-section-p">This is my little space where I can speak about my experiences and thoughts.</p>
         </section>
 
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
