@@ -23,6 +23,10 @@ export default function portfolio() {
       }}>
         <h1>Portfolio</h1>
         <div className="grid">
+          <a href="https://www.mactabeauty.com/" className="card" target="_blank" >
+            <h3>MactaBeauty &rarr;</h3>
+            <p>Magento 2 E-commerce site of one of the biggest beauty related products selling company in Estonia. Magento 2 Frontend and custom modules & plugins.</p>
+          </a>
           <a href="https://www.acty.ee/career/" className="card" target="_blank" >
             <h3>Acty Career Page &rarr;</h3>
             <p>Customized Acty's Career page that feautres custom open job positions and forms. Made in Wordpress using Divi builder. Simple but very elegant.</p>
