@@ -23,7 +23,7 @@ export default function misc() {
       }}>
         <h1>Utilities</h1>
         <div className="grid">
-          <a href="http://www.uderzo.it/main_products/space_sniffer/download.html" className="card">
+          <a href="https://www.plex.tv/media-server-downloads/#plex-media-server" className="card">
             <h3>Plex Media Server &rarr;</h3>
             <p>Create your own Netflix for free. You can convert your personal PC to a media server that you can use to watch different movies and shows.</p>
           </a>
