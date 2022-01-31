@@ -24,15 +24,17 @@ export default function misc() {
         <h1>Utilities</h1>
         <div className="grid">
           <a href="http://www.uderzo.it/main_products/space_sniffer/download.html" className="card">
-            <h3>SpaceSniffer &rarr;</h3>
-            <p>A great tool to keep your disks clear and clutter free.</p>
+            <h3>Plex Media Server &rarr;</h3>
+            <p>Create your own Netflix for free. You can convert your personal PC to a media server that you can use to watch different movies and shows.</p>
           </a>
-
+          <a href="http://www.uderzo.it/main_products/space_sniffer/download.html" className="card">
+            <h3>SpaceSniffer &rarr;</h3>
+            <p>A great tool to keep your disks clear and clutter free, gives you a understandable overview (it has a GUI) of your disks usage. It's really awesome.</p>
+          </a>
           <a href="https://www.malwarebytes.com/mwb-download/thankyou/" className="card">
             <h3>Malwarebytes &rarr;</h3>
-            <p>Yeah I know anti-malware applications IS SO 2012 but hear me out, Malwarebytes is a great option.</p>
+            <p>Yeah I know anti-malware applications ARE SO 2012 but hear me out, Malwarebytes is a great option.</p>
           </a>
-
         </div>
       </motion.div>
       <style jsx>{`
