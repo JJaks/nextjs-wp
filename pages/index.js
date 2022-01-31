@@ -47,7 +47,7 @@ export default function Home() {
             <div className="grid">
               <Link href="/me/misc"><a className="card">
                 <h3 className="description-h3">Utilities &rarr;</h3>
-                <p className="description-p">Random software utilities I recommend.</p>
+                <p className="description-p">Random software utilities & fun stuff I recommend.</p>
               </a>
               </Link>
             </div>

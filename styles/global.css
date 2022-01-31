@@ -57,6 +57,7 @@ body.light-mode {
 body.dark-mode {
   background-color: #000a12;
   color: #dfdfdf;
+  transition: background-color 0.3s ease;
 }
 
 body.dark-mode .dark-mode-icon {
@@ -164,7 +165,6 @@ input[type='checkbox'].dmcheck+label {
   cursor: pointer;
   position: absolute;
   left: 2px;
-  background: #fff;
   opacity: 0.9;
   background-color: #f6f6f6;
 }

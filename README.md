@@ -2,7 +2,14 @@
 
 Changelogs are shown only per MAJOR version (1.0.0, 2.0.0, etc)
 
-Version: 2.1.1
+Version: 2.1.2
+
+Changelog **2.1.2** 31.01.2022:
+* Fixed issue with body background-color attribute transition missing
+* Improved page smoothness
+* Improved margins and wording of many pages
+* Added new portfolio showcase
+* Added new software utility I recommend
 
 Changelog **2.1.1** 21.11.2021:
 * Upgraded packages
