@@ -164,7 +164,6 @@ input[type='checkbox'].dmcheck+label {
   cursor: pointer;
   position: absolute;
   left: 2px;
-  background: #fff;
   opacity: 0.9;
   background-color: #f6f6f6;
 }
