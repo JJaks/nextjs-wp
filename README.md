@@ -2,7 +2,11 @@
 
 Changelogs are shown only per MAJOR version (1.0.0, 2.0.0, etc)
 
-Version: 2.1.2
+Version: 2.1.3
+
+Changelog **2.1.3** 23.06.2022:
+* Updated portfolio showcase (Added Telia Play & Telia TV)
+* Updated About Me section with my age and updated information
 
 Changelog **2.1.2** 31.01.2022:
 * Fixed issue with body background-color attribute transition missing
