@@ -2,7 +2,14 @@
 
 Changelogs are shown only per MAJOR version (1.0.0, 2.0.0, etc)
 
-Version: 2.1.3
+Version: 2.1.4
+
+Changelog **2.1.4** 23.06.2022:
+* Fixed issue with dark mode toggle not working in certain scenarios
+* Removed unused files
+* Code cleanup
+* Improved code quality
+* Upgraded use-dark-mode package
 
 Changelog **2.1.3** 23.06.2022:
 * Updated portfolio showcase (Added Telia Play & Telia TV)
