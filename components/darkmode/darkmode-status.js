@@ -1,4 +1,4 @@
-import useDarkMode from 'use-dark-mode';
+import useDarkMode from '@fisch0920/use-dark-mode';
 
 const DarkModeStatus = () => {
     const { value } = useDarkMode(false);
