@@ -44,7 +44,7 @@ export default function aboutme() {
           In short I started as a frontend developer who loved to play around with different designs, frameworks and concepts, but
           I've gradually moved on to being a full-stack developer.
           I also love to try new things, which is why I have been getting into App developement and back-end work.
-          I am also 21 years old if you were curious about my age.
+          I am also 22 years old if you were curious about my age.
         </p>
         <p>
           I started getting into web design and front-end developement about 4 years ago, starting off with custom and quite basic HTML sites.
@@ -54,7 +54,8 @@ export default function aboutme() {
           and Elementor are really the way to go.
           My biggest project by far is the TKClient project which was my first massive front-end job, what made it hard was the Aurelia webpack and Typescript which I wasn't really familiar with.
           However, since starting as a full-stack developer at Acty Ltd, I'm developing massive e-commerce sites (custom modules & frontend),
-          it has been an absolute joy playing around with Magento and I look forward to learning even more of it and getting my Magento 2 Certificate.
+          it has been an absolute joy playing around with Magento and I look forward to learning even more of it and getting my Magento 2 Certificate. Since the March of 2022 I joined Telia Company as
+          a Frontend Developer.
         </p>
         <br>
         </br>
