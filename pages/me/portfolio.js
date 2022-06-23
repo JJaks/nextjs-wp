@@ -23,6 +23,14 @@ export default function portfolio() {
       }}>
         <h1>Portfolio</h1>
         <div className="grid">
+        <a href="https://teliatv.ee/" className="card" target="_blank" >
+            <h3>Telia TV &rarr;</h3>
+            <p>Telia TV Web & Telia TV on top box, this is an on-going project. ReactJS, SCSS, HTML5, & unit tests.</p>
+          </a>
+          <a href="https://play.telia.ee/" className="card" target="_blank" >
+            <h3>Telia Play &rarr;</h3>
+            <p>First project that I got to help develop when I joined Telia. ReactJS, Tailwind CSS & automatic tests.</p>
+          </a>
           <a href="https://www.mactabeauty.com/" className="card" target="_blank" >
             <h3>MactaBeauty &rarr;</h3>
             <p>Magento 2 E-commerce site of one of the biggest beauty related products selling company in Estonia. Magento 2 Frontend and custom modules & plugins.</p>
@@ -53,7 +61,7 @@ export default function portfolio() {
           </a>
           <a href="https://tk.salome.ee/user/login" className="card" target="_blank" >
             <h3>Salome TK &rarr;</h3>
-            <p>An Extensive order center written in TypeScript using the Aurelia webpack, custom back and front-end.</p>
+            <p>One of the first big projects I have made. An Extensive order center written in TypeScript using the Aurelia webpack, custom back and front-end.</p>
           </a>
           <a href="https://nextjs-zentria-a4z1aczhk.vercel.app/" className="card" target="_blank" >
             <h3>Zentria &rarr;</h3>
