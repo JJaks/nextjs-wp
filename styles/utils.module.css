@@ -46,8 +46,40 @@
   .listItem {
     margin: 1.25rem 0 1.25rem;
   }
+
+  .listItem::after {
+    margin: 2rem 0;
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #eaeaea;
+  }
   
   .lightText {
     color: #999;
+  }
+
+  .lightTextDate {
+    color: #999;
+  }
+
+  .blogPostTitle {
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+
+  /*Make blogPostTitle::after have a 50% line that expands to the width of the title on hover smoothyl. */
+  .blogPostTitle:hover::after {
+    width: 20%;
+  }
+
+  .blogPostTitle::after {
+    content: "";
+    display: block;
+    width: 10%;
+    height: 3px;
+    background-color: #999;
+    margin-top: 0.5rem;
+    transition: width 0.8s;
   }
   
