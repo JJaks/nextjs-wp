@@ -2,7 +2,12 @@
 
 Changelogs are shown only per MAJOR version (1.0.0, 2.0.0, etc)
 
-Version: 2.1.4
+Version: 2.1.5
+
+Changelog **2.1.5** 21.10.2022:
+* Updated blog post design
+* Added support for dynamic animations on blog post hover
+* Updated version in package.json
 
 Changelog **2.1.4** 23.06.2022:
 * Fixed issue with dark mode toggle not working in certain scenarios
