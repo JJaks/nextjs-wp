@@ -15,11 +15,15 @@ body {
 a {
   color: #0070f3;
   text-decoration: none;
+  transition: color 0.2s ease-out;
 }
 
 a:hover {
+  /* Smoothly change text color */
+  transition: color 0.2s ease-out;
   color: #0060ce;
 }
+
 
 img {
   max-width: 100%;
