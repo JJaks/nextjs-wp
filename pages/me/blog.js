@@ -7,11 +7,6 @@ import Date from '../../components/date'
 import { motion } from 'framer-motion';
 
 export default function blog({ allPostsData }) {
-  // Get first 150 characters from every post content and add a ...
-  const shortDesc= allPostsData.forEach(post => {
-   console.log(post);
-  })
-
   return (
     <Layout>
       <Head>
@@ -38,9 +33,9 @@ export default function blog({ allPostsData }) {
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, contentShort }) => (
-            <Link href={`/posts/${id}`}>
+            <Link key={id} href={`/posts/${id}`}>
               <a>
-                <li className={utilStyles.listItem} key={id}>
+                <li className={utilStyles.listItem}>
                   <small className={utilStyles.lightTextDate}>
                     <Date dateString={date} />
                   </small>
