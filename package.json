@@ -7,9 +7,6 @@
     "build": "next build",
     "start": "next start"
   },
-  "engines": {
-    "node": "16"
-  },
   "dependencies": {
     "@fisch0920/use-dark-mode": "^2.4.0",
     "chart.js": "^2.9.3",
