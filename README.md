@@ -2,7 +2,10 @@
 
 Changelogs are shown only per MAJOR version (1.0.0, 2.0.0, etc)
 
-Version: 2.1.5
+Version: 2.1.6
+
+Changelog **2.1.6** 14.11.2022:
+* Fixed an issue where post ID was falsely flagged by uBlock Origin browser extension
 
 Changelog **2.1.5** 21.10.2022:
 * Updated blog post design
