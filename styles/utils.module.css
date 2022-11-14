@@ -68,8 +68,7 @@
     margin: 0.5rem 0;
   }
 
-  /*Make blogPostTitle::after have a 50% line that expands to the width of the title on hover smoothyl. */
-  .blogPostTitle:hover::after {
+  a:hover .blogPostTitle::after {
     width: 20%;
   }
 
