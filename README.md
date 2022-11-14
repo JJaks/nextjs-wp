@@ -1,82 +1,16 @@
 # Personal portfolio and website
+This is the repository for my personal website that I develop as a hobby.
 
-Changelogs are shown only per MAJOR version (1.0.0, 2.0.0, etc)
+### Stats & Technologies 🔭
+![GitHub stats][github-stats]
+![Lang stats][lang-stats-api]
+![trophy][trophy-api]
+[![committers.top badge](https://user-badge.committers.top/estonia_private/JJaks.svg)](https://user-badge.committers.top/estonia_private/JJaks)
 
-Version: 2.1.6
+[profile-link]: https://github.com/JJaks
+[github-stats]: https://github-readme-stats.vercel.app/api?username=jjaks&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=dark&bg_color=00000000&hide=stars
+[lang-stats-api]: https://github-readme-stats.vercel.app/api/top-langs/?username=jjaks&layout=compact&langs_count=8&hide_border=true&theme=dark&bg_color=00000000
+[trophy-api]: https://github-profile-trophy.vercel.app/?username=jjaks&theme=gruvbox&no-bg=true&column=8&no-frame=true&row=3
 
-Changelog **2.1.6** 14.11.2022:
-* Fixed an issue where post ID was falsely flagged by uBlock Origin browser extension
-
-Changelog **2.1.5** 21.10.2022:
-* Updated blog post design
-* Added support for dynamic animations on blog post hover
-* Updated version in package.json
-
-Changelog **2.1.4** 23.06.2022:
-* Fixed issue with dark mode toggle not working in certain scenarios
-* Removed unused files
-* Code cleanup
-* Improved code quality
-* Upgraded use-dark-mode package
-
-Changelog **2.1.3** 23.06.2022:
-* Updated portfolio showcase (Added Telia Play & Telia TV)
-* Updated About Me section with my age and updated information
-
-Changelog **2.1.2** 31.01.2022:
-* Fixed issue with body background-color attribute transition missing
-* Improved page smoothness
-* Improved margins and wording of many pages
-* Added new portfolio showcase
-* Added new software utility I recommend
-
-Changelog **2.1.1** 21.11.2021:
-* Upgraded packages
-* Installed a new package Remark
-* Implemented blog posts functionality
-* Fixed homepage layout issues
-* Improved design of website
-* Improved code quality
-* Implemented new feature (go back)
-* Updated About me text
-* Implemented performance improvements
-
-Changelog **2.1.0** 20.11.2021:
-* Upgraded packages
-* Upgraded NextJS & React
-* Updated version in package.json
-* Fixed typo issues in package.json 
-* Improved webpage performance
-
-Changelog **2.0.6** 13.10.2021:
-* Added two new portfolio showcases (Acty Career page and Deleit)
-* Fixed typo issues
-* Improved webpage performance
-
-Changelog **2.0.5** 31.07.2021:
-* Added new profile image in WebP format
-* Fixed a issue where LinkedIn link was not working
-* Added new portfolio showcase (URL Shortening). You can view the page [here](https://jjaks.github.io/frontendmentor-url-shortening/src/) and it's source code [here](https://github.com/JJaks/frontendmentor-url-shortening)
-
-Changelog **2.0.4** 29.06.2021:
-* Reduced latest showcase job title
-
-Changelog **2.0.3** 29.06.2021:
-* Added new job showcase (gotoAndPlay) You can view the simulation [here](https://gotoandplay-sim.vercel.app/) and it's source code [here](https://github.com/JJaks/play-crn).
-
-
-Changelog **2.0.2** 18.06.2021:
-* Removed noflash.js
-* Improved website loading speed from 0.9s to 0.6s
-* Improved code formatting
-
-Changelog **2.0.1** 18.06.2021:
-* Added loading icon
-* Updated Design
-* Updated code performance
-* Removed unused CSS
-* Improvements to overall website performance (loading times from 1.9s to 0.9s)
-* Better wording on text
-* Added new sites to Portfolio
-* Added new skills to About Me
-* Changed Horizontal Bar design and colors
+### Contact 📫
+Feel free to visit my [website](https://jaagop.eu/) where you can see all the ways you can contact me.
