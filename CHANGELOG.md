@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.0](https://github.com/mokkapps/changelog-generator-demo/compare/v2.3.2...v2.4.0) (2022-11-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* removed old webp format profile picture
+
+### Features
+
+* added support for svg file format ([41362ef](https://github.com/mokkapps/changelog-generator-demo/commits/41362ef27853bf356d0fc3207f55695a4f84578b))
+
+
+### Bug Fixes
+
+* added new svg profile picture ([6254434](https://github.com/mokkapps/changelog-generator-demo/commits/625443479263d58acdf52523ba00291656eef5fc))
+
+
+* removed old webp format profile picture ([aa39c66](https://github.com/mokkapps/changelog-generator-demo/commits/aa39c669dfbfa8bc3301bee23d465c6bb34a91db))
+
 ### [2.3.2](https://github.com/mokkapps/changelog-generator-demo/compare/v2.3.1...v2.3.2) (2022-11-14)
 
 
