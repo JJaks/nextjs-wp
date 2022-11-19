@@ -25,11 +25,11 @@ export default function portfolio() {
         <div className="grid">
         <a href="https://teliatv.ee/" className="card" target="_blank" >
             <h3>Telia TV &rarr;</h3>
-            <p>Telia TV Web & Telia TV on top box, this is an on-going project. ReactJS, SCSS, HTML5, & unit tests.</p>
+            <p>Telia TV Web & Telia TV on top box, this is an on-going project. ReactJS, SCSS, HTML5, & unit tests, this is a work project.</p>
           </a>
           <a href="https://play.telia.ee/" className="card" target="_blank" >
             <h3>Telia Play &rarr;</h3>
-            <p>First project that I got to help develop when I joined Telia. ReactJS, Tailwind CSS & automatic tests.</p>
+            <p>First project that I got to help develop when I joined Telia. ReactJS, Tailwind CSS & automatic tests, this is a work project.</p>
           </a>
           <a href="https://www.mactabeauty.com/" className="card" target="_blank" >
             <h3>MactaBeauty &rarr;</h3>
