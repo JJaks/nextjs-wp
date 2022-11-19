@@ -13,7 +13,7 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: #4775fc;
   text-decoration: none;
   transition: color 0.2s ease-out;
 }
@@ -59,7 +59,7 @@ body.light-mode {
 }
 
 body.dark-mode {
-  background-color: #000a12;
+  background-color: #1e1e1e;
   color: #dfdfdf;
   transition: background-color 0.3s ease;
 }
