@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.4.2](https://github.com/mokkapps/changelog-generator-demo/compare/v2.4.1...v2.4.2) (2022-11-20)
+
+
+### Bug Fixes
+
+* added bottom margin to back to home button ([94f21d1](https://github.com/mokkapps/changelog-generator-demo/commits/94f21d1bff35759a234b01ca9c73de9f068437b2))
+* added missing load animation ([663e917](https://github.com/mokkapps/changelog-generator-demo/commits/663e917fb0eb0e43dfb4956fe480fec708ec7301))
+
 ### [2.4.1](https://github.com/mokkapps/changelog-generator-demo/compare/v2.4.0...v2.4.1) (2022-11-19)
 
 
